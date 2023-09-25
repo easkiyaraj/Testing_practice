@@ -1,3 +1,5 @@
+package Tests;
+
 import Pageobject.AdminPage;
 import Pageobject.LoginPage;
 import org.openqa.selenium.By;
