@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/LENOVO/IdeaProjects/testing_practice"
+          parallel="methods" thread-count="3">
+        <classes>
+<!--            <class name="Tests.AdminLoginTest2">-->
+<!--                <methods>-->
+<!--                    <include name="adminLoginTest1"/>-->
+<!--                    <include name="adminLoginTest2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Tests.UserLoginTest">-->
+<!--                <methods>-->
+<!--                    <include name="userLoginTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        <class name="Tests.IncludeExclude">
+            <methods>
+<!--                <include name="Test1"></include>-->
+                <exclude name="Test4"></exclude>
+            </methods>
+        </class>
+
+        </classes>
+    </test>
+</suite>
