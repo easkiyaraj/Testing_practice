@@ -15,6 +15,13 @@
                     <include name="userLoginTest"/>
                 </methods>
             </class>
+<!--        <class name="Tests.IncludeExclude">-->
+<!--            <methods>-->
+<!--&lt;!&ndash;                <include name="Test1"></include>&ndash;&gt;-->
+<!--                <exclude name="Test4"></exclude>-->
+<!--            </methods>-->
+<!--        </class>-->
+
         </classes>
     </test>
 </suite>
