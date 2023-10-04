@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/LENOVO/IdeaProjects/testing_practice"
-          parallel="methods" thread-count="3">
+          parallel="methods" thread-count="2">
         <classes>
             <class name="Tests.AdminLoginTest2">
                 <methods>
